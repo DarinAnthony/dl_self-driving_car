@@ -46,9 +46,9 @@ Outline:
 
 
 7. Run demo object detection with python script to test integration of TPU
-    *7.1 Use pretrained object detection model (MobileNet SSD v2) to classify objects in real time
-    *7.2 ???? Analyze https://github.com/dctian/DeepPiCar/blob/master/models/object_detection/code/coco_object_detection.py ???        5.*7.3 ???
-    *7.4 ???
+    - 7.1 Use pretrained object detection model (MobileNet SSD v2) to classify objects in real time
+    - 7.2 ???? Analyze https://github.com/dctian/DeepPiCar/blob/master/models/object_detection/code/coco_object_detection.py ???        - 7.3 ???
+    - 7.4 ???
 
 8. At this point, the car is capable of moving with python code, and process images on the camera. Now we want it to perform lane navigate with OpenCV (note: this part is not deep learning yet)
     8.1
