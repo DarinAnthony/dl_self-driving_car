@@ -10,6 +10,7 @@ Hardware knowledge requirements:
 - ??
 
 Software knowledge requirements:
+- Python
 - Single shot multi-box object detection
 - Transfer learning
 
@@ -51,8 +52,9 @@ Outline:
     - 7.3 ???
     - 7.4 ???
 
-8. At this point, the car is capable of moving with python code, and process images on the camera. Now we want it to perform lane navigate with OpenCV (note: this part is not deep learning yet)
-    - 8.1
+8. At this point, the car is capable of moving with python code, and processing images on the camera with OpenCV. Now we want it to perform lane navigation with OpenCV (note: this part is not deep learning yet, but rather it is LKAS, a well known system in real cars)
+    - 8.1 Understand knowledge needed for LKAS - https://docs.google.com/document/d/1Pmk61JI86VY5ZYxLCmU_buglEhiscdm5rPVy3ErvcS8/edit?usp=sharing
+    - 8.2 
 
 
 
