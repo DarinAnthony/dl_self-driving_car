@@ -35,17 +35,23 @@ Outline:
     4.3 ???
 
 5. At this point, the car is able to move and display video with python commands, but now we test the image processing
-    4.1 Install OpenCV and related libraries that OpenCV uses
-    4.2 Test OpenCV installation, checking if the folder "cv2" exists
-    4.3 Do live video processing with OpenCV, converting original image input to B&W to ensure library works
+    5.1 Install OpenCV and related libraries that OpenCV uses
+    5.2 Test OpenCV installation, checking if the folder "cv2" exists
+    5.3 Do live video processing with OpenCV, converting original image input to B&W to ensure library works
 
 6. Now we need to install ***TensorFlow*** for the RPI CPU and EdgeTPU, where the CPU runs ***inference***  (based on a pretrained model), while the TPU runs deep learning
-    5.1 Install tensorflow and ***keras*** with pip3 for the cpu
-    5.2 For what models work on the TPU, refer to: https://coral.ai/docs/edgetpu/models-intro/
-    5.3 Install EdgeTPU drivers and API on the RPI cpu - article 3
-    5.4 Run demo object detection with python script
-        5.4.1 Use pretrained object detection model (MobileNet SSD v2) to classify objects in real time
-        5.4.2 
+    6.1 Install tensorflow and ***keras*** with pip3 for the cpu ?? might be outdated, refer https://coral.ai/docs/accelerator/get-started/
+    6.2 For what models work on the TPU, refer to: https://coral.ai/docs/edgetpu/models-intro/, and for installation
+    6.3 Install EdgeTPU drivers and API on the RPI cpu - article 3
+
+
+7. Run demo object detection with python script to test integration of TPU
+    *7.1 Use pretrained object detection model (MobileNet SSD v2) to classify objects in real time
+    *7.2 ???? Analyze https://github.com/dctian/DeepPiCar/blob/master/models/object_detection/code/coco_object_detection.py ???        5.*7.3 ???
+    *7.4 ???
+
+8. At this point, the car is capable of moving with python code, and process images on the camera. Now we want it to perform lane navigate with OpenCV (note: this part is not deep learning yet)
+    8.1
 
 
 
@@ -57,7 +63,8 @@ Outline:
 
 Future work:
 Better object detection models: https://medium.com/tech-spectrum/top-10-object-detection-models-in-2024-7dc3f830e9dd
-
+Implement voice commands for navigation
+Add a robotic arm that tazes people
 
 
 
