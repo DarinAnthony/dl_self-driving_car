@@ -1,0 +1,5 @@
+["cam/image_array", "steering", "throttle"]
+["image_array", "float", "float"]
+{}
+{"created_at": 1729972912.4528692, "sessions": {"all_full_ids": ["24-10-26_0", "24-10-26_1", "24-10-26_2", "24-10-26_3", "24-10-26_4", "24-10-26_5", "24-10-26_6", "24-10-26_7", "24-10-26_8", "24-10-26_9", "24-10-26_10", "24-10-26_11", "24-10-26_12", "24-10-30_13", "24-10-30_14", "24-11-02_15"], "last_id": 15, "last_full_id": "24-11-02_15"}}
+{"paths": ["catalog_0.catalog", "catalog_1.catalog", "catalog_2.catalog", "catalog_3.catalog", "catalog_4.catalog", "catalog_5.catalog", "catalog_6.catalog"], "current_index": 6867, "max_len": 1000, "deleted_indexes": []}
